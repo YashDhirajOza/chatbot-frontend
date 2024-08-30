@@ -3,7 +3,7 @@ body, html {
   padding: 0;
   overflow: hidden;
   font-family: 'Roboto', sans-serif;
-  color: #f0f0f0; /* Light text color for contrast */
+  color: #f0f0f0; 
 }
 
 #vanta-bg {
@@ -13,35 +13,34 @@ body, html {
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: #f0f0f0; /* Match text color with overall theme */
-}
+  color: #f0f0f0; 
 
 .content {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 80%; /* Ensure content is responsive */
+  max-width: 80%; 
 }
 
 h1 {
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  color: #00ffff; /* Cyan color for the text */
-  text-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.4), 0 0 50px rgba(0, 255, 255, 0.3); /* Neon cyan glow effect */
+  color: #00ffff; 
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.7), 0 0 20px rgba(0, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.4), 0 0 50px rgba(0, 255, 255, 0.3); 
 }
 
 
 p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  color: #dcdcdc; /* Slightly lighter color for the paragraph */
+  color: #dcdcdc;
 }
 
 .custom-button {
-  background-color: #1a1a2e; /* Button background color */
-  color: #e94560; /* Text color */
+  background-color: #1a1a2e; 
+  color: #e94560; 
   border: none;
   padding: 15px 30px;
   font-size: 1.2rem;
